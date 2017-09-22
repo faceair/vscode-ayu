@@ -42,6 +42,11 @@
         "label": "Ayu Mirage",
         "uiTheme": "vs-dark",
         "path": "./ayu-mirage.json"
+      },
+      {
+        "label": "Ayu One Dark",
+        "uiTheme": "vs-dark",
+        "path": "./ayu-one-dark.json"
       }
     ],
     "iconThemes": [
