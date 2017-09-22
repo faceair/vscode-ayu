@@ -1,6 +1,11 @@
-# ayu theme for Visual Studio Code
+# ayu-one-dark theme for Visual Studio Code
 
 Source from: https://github.com/dempfi/ayu
+
+## 1.0.0
+
+`2017-09-22`
+- First version which forks ayu@0.8.0 & One Dark Pro@2.10.11
 
 ## 0.8.0
 

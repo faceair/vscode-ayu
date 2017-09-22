@@ -4,26 +4,6 @@ const ayu = require('ayu');
 
 // https://github.com/ayu-theme/ayu-vim/tree/master/term
 const terminalColors = {
-    light: {
-        background: ayu.light.common.bg,
-        foreground: ayu.light.common.fg,
-        black: '#000000',
-        red: ayu.light.syntax.keyword,
-        green: '#77cc00',
-        yellow: ayu.light.syntax.func,
-        blue: ayu.light.syntax.tag,
-        magenta: '#9966cc',
-        cyan: ayu.light.syntax.regexp,
-        white: '#c7c7c7',
-        brightBlack: '#686868',
-        brightRed: '#d6656a',
-        brightGreen: '#a3d900',
-        brightYellow: ayu.light.syntax.operator,
-        brightBlue: '#6871ff',
-        brightMagenta: ayu.light.syntax.constant,
-        brightCyan: '#57d9ad',
-        brightWhite: '#ffffff'
-    },
     dark: {
         background: ayu.dark.common.bg,
         foreground: ayu.dark.common.fg,
@@ -43,33 +23,13 @@ const terminalColors = {
         brightMagenta: '#ff77ff',
         brightCyan: '#a6fde1',
         brightWhite: '#ffffff'
-    },
-    mirage: {
-        background: ayu.mirage.common.bg,
-        foreground: ayu.mirage.common.fg,
-        black: ayu.mirage.ui.gridDivider, // ayu-vim uses #212733
-        red: ayu.mirage.syntax.supVar,
-        green: ayu.mirage.syntax.string,
-        yellow: ayu.mirage.common.accent,
-        blue: '#36a3d9',
-        magenta: ayu.mirage.syntax.constant,
-        cyan: ayu.mirage.syntax.regexp,
-        white: '#c7c7c7',
-        brightBlack: '#686868',
-        brightRed: ayu.mirage.syntax.supVar,
-        brightGreen: '#cbe645',
-        brightYellow: '#ffdf80',
-        brightBlue: '#6871ff',
-        brightMagenta: '#ff77ff',
-        brightCyan: '#a6fde1',
-        brightWhite: '#ffffff'
     }
 };
 
-['light', 'dark', 'mirage'].forEach(createTheme);
+['dark'].forEach(createTheme);
 
 function createTheme(variant) {
-    const filepath = path.join(__dirname, `/ayu-${variant}.json`);
+    const filepath = path.join(__dirname, `/ayu-one-${variant}.json`);
     const theme = JSON.parse(fs.readFileSync(filepath));
 
     theme.colors = getThemeColors(variant);
