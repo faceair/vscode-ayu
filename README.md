@@ -11,7 +11,6 @@ ext install ayu-one-dark
 ```
 
 Then go to `Preferences > Color Theme > Ayu One Dark`.
-If you want to setup File Icon, then go to `Preferences > File Icon Theme > Ayu`.
 
 ## Screenshots
 
