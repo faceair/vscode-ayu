@@ -2,6 +2,12 @@
 
 Source from: https://github.com/dempfi/ayu
 
+## 1.0.1
+
+`2017-11-09`
+- Remove icon theme
+- Update tokenColors to One Dark Pro@2.10.18
+
 ## 1.0.0
 
 `2017-09-22`

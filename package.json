@@ -2,7 +2,7 @@
   "name": "ayu-one-dark",
   "displayName": "Ayu One Dark",
   "description": "An theme base on `Any Dark` and `One Dark Pro` theme.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "faceair",
   "license": "MIT",
   "repository": {
@@ -28,13 +28,6 @@
         "label": "Ayu One Dark",
         "uiTheme": "vs-dark",
         "path": "./ayu-one-dark.json"
-      }
-    ],
-    "iconThemes": [
-      {
-        "id": "ayu-one-dark",
-        "label": "Ayu One Dark",
-        "path": "./ayu-icons.json"
       }
     ]
   },
