@@ -16,16 +16,3 @@ Then go to `Preferences > Color Theme > Ayu One Dark`.
 
 #### One Dark
 ![One Dark](assets/one-dark.png)
-
-
-## Development
-
-Install dependencies
-```shell
-npm install
-```
-
-Update themes and build VSIX package
-```shell
-npm run build && npm run package
-```
