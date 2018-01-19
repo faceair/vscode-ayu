@@ -2,6 +2,11 @@
 
 Source from: https://github.com/dempfi/ayu
 
+## 1.0.2
+
+`2018-01-20`
+- Update colors to ayu@0.12.0 & tokenColors to One Dark Pro@2.12.2
+
 ## 1.0.1
 
 `2017-11-09`
