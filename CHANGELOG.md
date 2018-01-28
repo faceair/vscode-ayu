@@ -2,6 +2,11 @@
 
 Source from: https://github.com/dempfi/ayu
 
+## 1.0.3
+
+`2018-01-28`
+- remove border color
+
 ## 1.0.2
 
 `2018-01-20`
