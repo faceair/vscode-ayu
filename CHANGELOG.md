@@ -2,6 +2,11 @@
 
 Source from: https://github.com/dempfi/ayu
 
+## 1.0.4
+
+`2018-05-17`
+- Update tokenColors to One Dark Pro@2.13.6
+
 ## 1.0.3
 
 `2018-01-28`

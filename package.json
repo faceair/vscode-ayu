@@ -2,7 +2,7 @@
   "name": "ayu-one-dark",
   "displayName": "Ayu One Dark",
   "description": "An theme base on `Any Dark` and `One Dark Pro` theme.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "faceair",
   "license": "MIT",
   "repository": {
@@ -36,7 +36,6 @@
     "package": "vsce package"
   },
   "devDependencies": {
-    "ayu": "4.0.0",
     "vsce": "1.22.0"
   }
 }
