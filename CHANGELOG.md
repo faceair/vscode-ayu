@@ -2,6 +2,16 @@
 
 Source from: https://github.com/dempfi/ayu
 
+## 1.1.1
+
+`2018-09-28`
+- remove border color
+
+## 1.1.0
+
+`2018-09-28`
+- Update colors to ayu@0.16.0 & tokenColors to One Dark Pro@2.16.6
+
 ## 1.0.4
 
 `2018-05-17`
